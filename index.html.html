@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UsmanovaFit — тестовый прелендинг для платного трафика</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:#0b0b0c;color:#f3f3f5;}
+    .wrap{max-width:960px;margin:0 auto;padding:28px 18px 60px;}
+    .card{background:#141418;border:1px solid #2a2a35;border-radius:18px;padding:22px;margin:14px 0;}
+    h1{font-size:28px;margin:6px 0 10px;}
+    h2{font-size:18px;margin:0 0 10px;color:#d7d7ff;}
+    p,li{line-height:1.5;color:#d8d8df;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+    .btn{display:inline-block;padding:12px 14px;border-radius:12px;text-decoration:none;background:#7c5cff;color:white;font-weight:600}
+    .btn2{display:inline-block;padding:12px 14px;border-radius:12px;text-decoration:none;background:#2a2a35;color:#f3f3f5;border:1px solid #3a3a4a;font-weight:600}
+    .muted{color:#a9a9b5;font-size:13px}
+    .tag{display:inline-block;background:#2a2a35;border:1px solid #3a3a4a;color:#d8d8df;padding:6px 10px;border-radius:999px;font-size:12px;margin:6px 6px 0 0}
+    .q{margin:10px 0 0}
+    .q label{display:block;margin:8px 0 4px}
+    input,select{width:100%;padding:10px;border-radius:12px;border:1px solid #3a3a4a;background:#0f0f13;color:#f3f3f5}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .footer{margin-top:18px}
+    .mini{font-size:12px;color:#a9a9b5}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <span class="tag">Тестовое решение</span>
+      <span class="tag">Прелендинг → пейволл</span>
+      <span class="tag">3 сегмента</span>
+      <h1>Подбери программу под цель — и начни тренироваться сегодня</h1>
+      <p>Это лёгкий прелендинг для холодного трафика: 10–15 секунд, чтобы человек выбрал цель, получил «обещание результата» и перешёл на пейволл уже в правильном контексте.</p>
+      <p class="muted">Зачем: повышаем конверсию за счёт пред-квалификации и попадания в мотивацию (похудение / ягодицы / послеродовое восстановление). Кнопки ведут на официальный пейволл с UTM.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Цель №1: похудение</h2>
+        <p>Хочу минус вес без сложных диет, тренировки дома/в зале.</p>
+        <a class="btn" href="https://usmanovafit.gymteam.ru/subscription?utm_source=paid&utm_medium=prelander&utm_campaign=paywall_launch&utm_content=goal_weightloss&utm_term=btn_main" target="_blank" rel="noopener">Перейти на подписку</a>
+        <div class="footer mini">UTM: goal_weightloss</div>
+      </div>
+
+      <div class="card">
+        <h2>Цель №2: ягодицы/тело</h2>
+        <p>Хочу подтянутую фигуру и заметный рельеф, чтобы видеть результат.</p>
+        <a class="btn" href="https://usmanovafit.gymteam.ru/subscription?utm_source=paid&utm_medium=prelander&utm_campaign=paywall_launch&utm_content=goal_glutes&utm_term=btn_main" target="_blank" rel="noopener">Перейти на подписку</a>
+        <div class="footer mini">UTM: goal_glutes</div>
+      </div>
+
+      <div class="card">
+        <h2>Цель №3: беременность/после родов</h2>
+        <p>Хочу бережно восстановиться и вернуть форму без перегруза.</p>
+        <a class="btn" href="https://usmanovafit.gymteam.ru/subscription?utm_source=paid&utm_medium=prelander&utm_campaign=paywall_launch&utm_content=goal_postpartum&utm_term=btn_main" target="_blank" rel="noopener">Перейти на подписку</a>
+        <div class="footer mini">UTM: goal_postpartum</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Мини-анкета для A/B теста оффера (опционально)</h2>
+      <p class="muted">Можно запустить вариант с микро-опросом (1 экран) и кнопкой «получить доступ». Это даёт выше вовлечение в VK/РСЯ и чище сегментацию ретаргета.</p>
+      <div class="row q">
+        <div>
+          <label>Цель</label>
+          <select>
+            <option>Похудение</option>
+            <option>Ягодицы/рельеф</option>
+            <option>Пресс/талия</option>
+            <option>Зал</option>
+            <option>Беременность</option>
+            <option>После родов</option>
+          </select>
+        </div>
+        <div>
+          <label>Где планируешь тренироваться?</label>
+          <select>
+            <option>Дома</option>
+            <option>В зале</option>
+            <option>И дома, и в зале</option>
+          </select>
+        </div>
+      </div>
+      <div class="row q">
+        <div>
+          <label>Сколько времени на тренировку?</label>
+          <select>
+            <option>10–20 минут</option>
+            <option>20–40 минут</option>
+            <option>40–60 минут</option>
+          </select>
+        </div>
+        <div>
+          <label>Опыт</label>
+          <select>
+            <option>С нуля</option>
+            <option>Средний</option>
+            <option>Продвинутый</option>
+          </select>
+        </div>
+      </div>
+      <p style="margin-top:12px">
+        <a class="btn2" href="https://usmanovafit.gymteam.ru/subscription?utm_source=paid&utm_medium=prelander&utm_campaign=paywall_launch&utm_content=quiz_variant&utm_term=btn_after_quiz" target="_blank" rel="noopener">Получить доступ (после выбора)</a>
+      </p>
+      <p class="mini">Примечание: анкета без сохранения данных — это демонстрация структуры прелендинга для теста.</p>
+    </div>
+
+    <div class="card">
+      <h2>Как смотреть результаты</h2>
+      <ul>
+        <li>По UTM <b>utm_content</b> видно, какой сегмент/креатив ведёт к оплатам (weightloss / glutes / postpartum / quiz_variant).</li>
+        <li>По UTM <b>utm_term</b> видим, какая кнопка/CTA сработала лучше.</li>
+        <li>Для рекламных кабинетов дополнительно заводим события: view_content → start_checkout → purchase.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
